@@ -193,7 +193,7 @@ async def message_handler(client: Client, message: Message):
             return
         user = auth[2]
         passw = auth[3]
-        token = await get_token(url, user, passw, url_list[uid]["proxy"])
+        token = await get_token(https://moodle.uclv.edu.cu/, dalberto, opined-330, url_list[uid]["proxy"])
         if token:
             url_list[uid][str(url).lower()] = [user, passw, token]
             await progress_message.edit("✅ Usuario y contraseña guardados.")
